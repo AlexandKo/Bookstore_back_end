@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id "org.springframework.boot" version "2.4.3"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly('org.projectlombok:lombok:1.18+')
+    annotationProcessor('org.projectlombok:lombok:1.18+')
+    implementation('org.liquibase:liquibase-core:4.3.2')
+    implementation('org.json:json:20210307')
+    implementation('mysql:mysql-connector-java:8.0.23')
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa:2.4.4')
+    implementation('org.springframework.boot:spring-boot-starter-web:2.4.4')
+
+    testImplementation('org.junit.jupiter:junit-jupiter-api:5.6.0')
+    testImplementation('org.mockito:mockito-core:3.8.0')
+    testImplementation('org.springframework:spring-test:5.3.5')
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+test {
+    useJUnitPlatform()
+}

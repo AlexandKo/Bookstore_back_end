@@ -13,7 +13,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @EnableJpaRepositories(value = "bookstore.com.core.persistence")
-@EntityScan(basePackages = "bookstore.com.core.domain")
+@EntityScan(basePackages = "bookstore.com.domain")
 @ComponentScan(basePackages = "bookstore.com.core")
 @EnableTransactionManagement
 public class AppConfiguration {
@@ -22,8 +22,8 @@ public class AppConfiguration {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/bookstore?createDatabaseIfNotExist=true");
-        dataSource.setUsername("javaguru");
-        dataSource.setPassword("Java#Guru*");
+        dataSource.setUsername("user");
+        dataSource.setPassword("user");
         return dataSource;
     }
 

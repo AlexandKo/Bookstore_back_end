@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <changeSet author="aleksey.kodin" id="2">
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#1"/>
+            <column name="price" value="9.65"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#2"/>
+            <column name="price" value="13.10"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#3"/>
+            <column name="price" value="1.10"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#4"/>
+            <column name="price" value="89.45"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#5"/>
+            <column name="price" value="45.78"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#6"/>
+            <column name="price" value="56.44"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#7"/>
+            <column name="price" value="0.14"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#8"/>
+            <column name="price" value="35.10"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#9"/>
+            <column name="price" value="5.14"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#10"/>
+            <column name="price" value="9.10"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#11"/>
+            <column name="price" value="89.47"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#12"/>
+            <column name="price" value="23.58"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#13"/>
+            <column name="price" value="41.12"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#14"/>
+            <column name="price" value="54.32"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#15"/>
+            <column name="price" value="3.14"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#16"/>
+            <column name="price" value="14.78"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#17"/>
+            <column name="price" value="21.88"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#18"/>
+            <column name="price" value="6.89"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#19"/>
+            <column name="price" value="1.47"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#20"/>
+            <column name="price" value="6.54"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#21"/>
+            <column name="price" value="14.01"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#22"/>
+            <column name="price" value="3.05"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#23"/>
+            <column name="price" value="1.14"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#24"/>
+            <column name="price" value="6.05"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#25"/>
+            <column name="price" value="11.87"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#26"/>
+            <column name="price" value="0.99"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#27"/>
+            <column name="price" value="8.97"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#28"/>
+            <column name="price" value="6.20"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#29"/>
+            <column name="price" value="3.45"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#30"/>
+            <column name="price" value="4.90"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#31"/>
+            <column name="price" value="2.18"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#32"/>
+            <column name="price" value="4.00"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#33"/>
+            <column name="price" value="7.11"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#34"/>
+            <column name="price" value="5.04"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#35"/>
+            <column name="price" value="1.19"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#36"/>
+            <column name="price" value="7.21"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#37"/>
+            <column name="price" value="8.01"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#38"/>
+            <column name="price" value="4.25"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#39"/>
+            <column name="price" value="1.78"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#40"/>
+            <column name="price" value="93.25"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#41"/>
+            <column name="price" value="2.80"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#42"/>
+            <column name="price" value="4.10"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#43"/>
+            <column name="price" value="8.54"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#44"/>
+            <column name="price" value="3.49"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#45"/>
+            <column name="price" value="11.01"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#46"/>
+            <column name="price" value="4.98"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#47"/>
+            <column name="price" value="23.85"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#48"/>
+            <column name="price" value="100.05"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#49"/>
+            <column name="price" value="77.18"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#50"/>
+            <column name="price" value="68.19"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#51"/>
+            <column name="price" value="3.14"/>
+        </insert>
+        <insert dbms="mysql"
+                schemaName="bookstore"
+                tableName="books">
+            <column name="title" value="Book#52"/>
+            <column name="price" value="18.05"/>
+        </insert>
+        <rollback>
+            <sql>
+                TRUNCATE books;
+                ALTER TABLE books AUTO_INCREMENT = 1;
+            </sql>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

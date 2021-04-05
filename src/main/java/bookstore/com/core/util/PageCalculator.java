@@ -2,27 +2,30 @@ package bookstore.com.core.util;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class PageCalculator {
-    private final int DEFAULT_ELEMENTS_ON_PAGE = 10;
     private final int INITIALIZATION_SET_FIRST_PAGE = 1;
     private final int OFFSET_FIRST_PAGE = 0;
     private int currentPage = INITIALIZATION_SET_FIRST_PAGE;
     private int currentOffset = OFFSET_FIRST_PAGE;
     @Getter
     @Setter
-    private int elementsOnPageQuantity = DEFAULT_ELEMENTS_ON_PAGE;
+    @Value("${element.on.page.quantity}")
+    private int elementsOnPageQuantity;
 
     public int calculatePageOffset(int newPageNumber) {
+        final int PAGE_POSITION = 0;
         int newOffset;
-        int pagesOffset = newPageNumber - currentPage;
-        if (pagesOffset > 0) {
-            newOffset = currentOffset + (pagesOffset * elementsOnPageQuantity);
+
+        int pageOffset = newPageNumber - currentPage;
+        if (pageOffset > PAGE_POSITION) {
+            newOffset = currentOffset + (pageOffset * elementsOnPageQuantity);
         } else {
-            pagesOffset = currentPage - newPageNumber;
-            newOffset = currentOffset - (pagesOffset * elementsOnPageQuantity);
+            pageOffset = currentPage - newPageNumber;
+            newOffset = currentOffset - (pageOffset * elementsOnPageQuantity);
         }
         currentPage = newPageNumber;
         currentOffset = newOffset;

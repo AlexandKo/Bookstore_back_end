@@ -72,6 +72,7 @@ class PageCalculatorTest {
     @Test
     public void getPageCount_test1() {
         PageCalculator pageCalculator = new PageCalculator();
+        pageCalculator.setElementsOnPageQuantity(50);
         int pageCount = pageCalculator.getPageCount(10);
 
         assertEquals(1, pageCount);
